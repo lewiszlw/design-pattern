@@ -3,7 +3,7 @@ package tech.lewiszlw.strategypattern;
 /**
  * Desc:
  * ------------------------------------
- * Author:zhanglinwei02@meituan.com
+ * Author:zhanglinwei
  * Date:2018/7/20
  * Time:14:26
  */

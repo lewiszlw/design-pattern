@@ -6,7 +6,7 @@ import lombok.Setter;
 /**
  * Desc:
  * ------------------------------------
- * Author:zhanglinwei02@meituan.com
+ * Author:zhanglinwei
  * Date:2018/9/21
  * Time:11:50
  */

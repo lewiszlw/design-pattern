@@ -3,7 +3,7 @@ package tech.lewiszlw.templatemethodpattern;
 /**
  * Desc:
  * ------------------------------------
- * Author:zhanglinwei02@meituan.com
+ * Author:zhanglinwei
  * Date:2018/10/8
  * Time:11:28
  */

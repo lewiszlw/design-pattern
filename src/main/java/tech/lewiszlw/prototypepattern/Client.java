@@ -3,7 +3,7 @@ package tech.lewiszlw.prototypepattern;
 /**
  * Desc:
  * ------------------------------------
- * Author:zhanglinwei02@meituan.com
+ * Author:zhanglinwei
  * Date:2018/9/21
  * Time:14:04
  */

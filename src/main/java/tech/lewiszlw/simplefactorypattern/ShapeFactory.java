@@ -3,7 +3,7 @@ package tech.lewiszlw.simplefactorypattern;
 /**
  * Desc:
  * ------------------------------------
- * Author:zhanglinwei02@meituan.com
+ * Author:zhanglinwei
  * Date:2018/9/4
  * Time:14:34
  */

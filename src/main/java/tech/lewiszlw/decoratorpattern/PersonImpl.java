@@ -3,7 +3,7 @@ package tech.lewiszlw.decoratorpattern;
 /**
  * Desc:
  * ------------------------------------
- * Author:zhanglinwei02@meituan.com
+ * Author:zhanglinwei
  * Date:2018/9/13
  * Time:09:51
  */

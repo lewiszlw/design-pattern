@@ -3,7 +3,7 @@ package tech.lewiszlw.proxypattern;
 /**
  * Desc:
  * ------------------------------------
- * Author:zhanglinwei02@meituan.com
+ * Author:zhanglinwei
  * Date:2018/7/18
  * Time:10:48
  */

@@ -1,8 +1,8 @@
-package tech.lewiszlw.adapterpattern.adapter.impl;
+package tech.lewiszlw.adapterpattern.forobject.adapter.impl;
 
 import lombok.Setter;
-import tech.lewiszlw.adapterpattern.adaptee.Adaptee;
-import tech.lewiszlw.adapterpattern.adapter.Target;
+import tech.lewiszlw.adapterpattern.forobject.adaptee.Adaptee;
+import tech.lewiszlw.adapterpattern.forobject.adapter.Target;
 
 /**
  * Desc:

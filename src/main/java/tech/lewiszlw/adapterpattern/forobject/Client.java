@@ -1,10 +1,9 @@
-package tech.lewiszlw.adapterpattern;
+package tech.lewiszlw.adapterpattern.forobject;
 
-import tech.lewiszlw.adapterpattern.adaptee.Adaptee;
-import tech.lewiszlw.adapterpattern.adaptee.impl.ConcreteAdaptee1;
-import tech.lewiszlw.adapterpattern.adaptee.impl.ConcreteAdaptee2;
-import tech.lewiszlw.adapterpattern.adapter.Target;
-import tech.lewiszlw.adapterpattern.adapter.impl.Adapter;
+import tech.lewiszlw.adapterpattern.forobject.adaptee.impl.ConcreteAdaptee1;
+import tech.lewiszlw.adapterpattern.forobject.adaptee.impl.ConcreteAdaptee2;
+import tech.lewiszlw.adapterpattern.forobject.adapter.Target;
+import tech.lewiszlw.adapterpattern.forobject.adapter.impl.Adapter;
 
 /**
  * Desc:

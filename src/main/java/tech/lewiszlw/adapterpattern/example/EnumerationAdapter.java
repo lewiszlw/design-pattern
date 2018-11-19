@@ -1,4 +1,4 @@
-package tech.lewiszlw.decoratorpattern.example;
+package tech.lewiszlw.adapterpattern.example;
 
 import java.util.Enumeration;
 import java.util.Iterator;

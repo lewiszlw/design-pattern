@@ -1,6 +1,6 @@
-package tech.lewiszlw.adapterpattern.adaptee.impl;
+package tech.lewiszlw.adapterpattern.forobject.adaptee.impl;
 
-import tech.lewiszlw.adapterpattern.adaptee.Adaptee;
+import tech.lewiszlw.adapterpattern.forobject.adaptee.Adaptee;
 
 /**
  * Desc:

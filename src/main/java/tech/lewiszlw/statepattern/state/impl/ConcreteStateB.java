@@ -13,7 +13,6 @@ import tech.lewiszlw.statepattern.state.State;
 public class ConcreteStateB implements State {
 
     @Override public void handle(Context context) {
-        System.out.println("当前状态为：状态A");
-        context.setState(new ConcreteStateA());
+        System.out.println("当前状态为：状态B, 执行业务逻辑B");
     }
 }

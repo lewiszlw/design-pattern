@@ -21,4 +21,8 @@ public class Context {
     public void request() {
         state.handle(this);
     }
+
+    public void setState(State state) {
+        this.state = state;
+    }
 }

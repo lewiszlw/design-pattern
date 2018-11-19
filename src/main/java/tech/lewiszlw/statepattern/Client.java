@@ -1,6 +1,7 @@
 package tech.lewiszlw.statepattern;
 
 import tech.lewiszlw.statepattern.state.impl.ConcreteStateA;
+import tech.lewiszlw.statepattern.state.impl.ConcreteStateB;
 
 /**
  * Desc:
@@ -13,10 +14,8 @@ public class Client {
 
     public static void main(String[] args) {
         Context context = new Context(new ConcreteStateA());
-
         context.request();
-        context.request();
-        context.request();
+        context.setState(new ConcreteStateB());
         context.request();
     }
 }

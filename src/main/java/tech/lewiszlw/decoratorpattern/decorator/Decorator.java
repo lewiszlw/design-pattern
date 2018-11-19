@@ -9,14 +9,11 @@ import tech.lewiszlw.decoratorpattern.component.Component;
  * Date:2018/9/13
  * Time:09:52
  */
-public abstract class Decorator {
+public abstract class Decorator implements Component {
     protected Component component;
 
     public Decorator(Component component) {
         this.component = component;
     }
-
-    public abstract void operation();
-
 
 }

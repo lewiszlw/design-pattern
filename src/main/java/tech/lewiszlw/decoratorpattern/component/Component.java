@@ -1,4 +1,4 @@
-package tech.lewiszlw.decoratorpattern;
+package tech.lewiszlw.decoratorpattern.component;
 
 /**
  * Desc:
@@ -7,6 +7,6 @@ package tech.lewiszlw.decoratorpattern;
  * Date:2018/9/13
  * Time:09:50
  */
-public interface Person {
-    void dress();
+public interface Component {
+    void operation();
 }

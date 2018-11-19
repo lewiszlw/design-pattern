@@ -1,5 +1,9 @@
 package tech.lewiszlw.decoratorpattern;
 
+import tech.lewiszlw.decoratorpattern.component.Component;
+import tech.lewiszlw.decoratorpattern.component.ConcreteComponent;
+import tech.lewiszlw.decoratorpattern.decorator.ConcreteDecorator;
+
 /**
  * Desc:
  * ------------------------------------
@@ -11,13 +15,8 @@ public class Client {
 
     public static void main(String[] args) {
 
-        Person person = new PersonImpl();
-
-        Person student = new StudentDecorator(person);
-        student.dress();
-
-        Person teacher = new TeacherDecorator(student);
-        teacher.dress();
+        ConcreteDecorator concreteDecorator = new ConcreteDecorator(new ConcreteComponent());
+        concreteDecorator.operation();
 
     }
 

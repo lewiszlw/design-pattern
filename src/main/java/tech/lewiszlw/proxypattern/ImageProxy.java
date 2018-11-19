@@ -1,5 +1,8 @@
 package tech.lewiszlw.proxypattern;
 
+import tech.lewiszlw.proxypattern.subject.Image;
+import tech.lewiszlw.proxypattern.subject.RealImage;
+
 /**
  * Desc:
  * ------------------------------------
@@ -7,12 +10,12 @@ package tech.lewiszlw.proxypattern;
  * Date:2018/7/18
  * Time:10:48
  */
-public class ProxyImage implements Image{
+public class ImageProxy implements Image {
 
     private RealImage realImage;
     private String filename;
 
-    public ProxyImage(String filename) {
+    public ImageProxy(String filename) {
         this.filename = filename;
     }
 
@@ -22,5 +25,10 @@ public class ProxyImage implements Image{
             realImage = new RealImage(filename);
         }
         realImage.display();
+        afterDisplay();
+    }
+
+    private void afterDisplay() {
+        System.out.println("图片展示完成。");
     }
 }

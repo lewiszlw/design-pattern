@@ -1,4 +1,6 @@
-package tech.lewiszlw.proxypattern;
+package tech.lewiszlw.proxypattern.subject;
+
+import tech.lewiszlw.proxypattern.subject.Image;
 
 /**
  * Desc:
@@ -7,7 +9,7 @@ package tech.lewiszlw.proxypattern;
  * Date:2018/7/18
  * Time:10:43
  */
-public class RealImage implements Image{
+public class RealImage implements Image {
 
     private String filename;
 

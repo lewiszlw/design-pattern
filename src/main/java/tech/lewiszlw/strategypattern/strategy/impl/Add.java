@@ -1,4 +1,6 @@
-package tech.lewiszlw.strategypattern;
+package tech.lewiszlw.strategypattern.strategy.impl;
+
+import tech.lewiszlw.strategypattern.strategy.Strategy;
 
 /**
  * Desc:
@@ -7,7 +9,7 @@ package tech.lewiszlw.strategypattern;
  * Date:2018/7/20
  * Time:14:23
  */
-public class OperationAdd implements Strategy {
+public class Add implements Strategy {
     @Override
     public int doOperation(int num1, int num2) {
         return num1 + num2;

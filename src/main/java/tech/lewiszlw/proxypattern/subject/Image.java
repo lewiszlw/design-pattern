@@ -1,4 +1,4 @@
-package tech.lewiszlw.proxypattern;
+package tech.lewiszlw.proxypattern.subject;
 
 /**
  * Desc:

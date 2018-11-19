@@ -1,4 +1,4 @@
-package tech.lewiszlw.strategypattern;
+package tech.lewiszlw.strategypattern.strategy;
 
 /**
  * Desc:

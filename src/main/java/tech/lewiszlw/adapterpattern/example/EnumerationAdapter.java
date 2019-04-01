@@ -9,18 +9,21 @@ import java.util.Iterator;
  * @author zhanglinwei02
  * @date 2018/11/19
  */
-public class EnumerationAdapter implements Enumeration {
-    private Iterator iterator;
-
-    public EnumerationAdapter(Iterator iterator) {
-        this.iterator = iterator;
-    }
+public class EnumerationAdapter implements Enumeration, Iterator{
 
     @Override public boolean hasMoreElements() {
-        return iterator.hasNext();
+        return hasNext();
     }
 
     @Override public Object nextElement() {
-        return iterator.next();
+        return next();
+    }
+
+    @Override public boolean hasNext() {
+        return true;
+    }
+
+    @Override public Object next() {
+        return null;
     }
 }

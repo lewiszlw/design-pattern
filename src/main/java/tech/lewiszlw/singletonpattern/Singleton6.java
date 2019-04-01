@@ -1,7 +1,7 @@
 package tech.lewiszlw.singletonpattern;
 
 /**
- * Desc:
+ * Desc: 枚举实现单例（effective java作者推荐写法）
  *
  * @author zhanglinwei02
  * @date 2018/11/19
